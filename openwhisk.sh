@@ -17,10 +17,11 @@ cd openwhisk/
 cd ansible
 export OW_DB=CouchDB
 export OW_DB_PROTOCOL=http
-export OW_DB_HOST=10.20.14.123
+export OW_DB_HOST=10.20.14.190
 export OW_DB_PORT=5984
 export OW_DB_USERNAME=admin1
 export OW_DB_PASSWORD=cZdg3qbSf
+kM-2mfG3qr
 export ENVIRONMENT=local
 echo ENVIRONMENT=local >>  /etc/bash.bashrc
 ansible-playbook -i environments/$ENVIRONMENT setup.yml
